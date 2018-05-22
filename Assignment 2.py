@@ -90,4 +90,6 @@ for n in range(7):
     f.writelines(decoded)
     f.close()
     
+    print('decoded ',secretfilename,' with a key of ',correctkey)
+    
 print("Done")
